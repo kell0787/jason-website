@@ -1,0 +1,121 @@
+
+body {
+    background-color: #FDE0A1;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 20px;
+    padding-left: 160px;
+}
+
+h1 {
+    font-size: 4rem;
+    padding-top: 50px;
+}
+
+h2 {
+    font-size: 3.375rem;
+    line-height: normal;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 15px 40px; /* Adjusted padding for button size */
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #FF8C00;
+}
+
+
+/* playlist */
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+iframe {
+    border-radius: 12px;
+    margin-bottom: 20px; /* Add margin to separate iframe from button */
+}
+
+btn-main {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Adjusted padding for button */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+btn:hover {
+    background-color: #FF8C00;
+}
+
+/* images */
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-right: 210px;
+}
+
+img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.btn-main {
+    margin-top: auto; /* Align button to the bottom */
+    padding-bottom: 50px;
+}
