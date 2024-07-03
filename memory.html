@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <title>Matching Game</title>
+</head>
+<body>
+    <div class="winscreen" id="win">
+        <h1>You Win!</h1>
+        <h2 id="winning"></h2>
+        <h2 id="winning2"></h2>
+        <h2 id="winning3"></h2>
+    </div>
+
+    <main>
+        <!-- NAV -->
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="playlist.html">PLAYLIST</a>
+            <a href="pictures.html">PICTURES</a>
+            <a href="games.html">GAMES</a>
+            <a href="record.html">POCKET VINYL</a>
+        </nav>
+
+        <div class="container">
+            <div id="time">Current Time: 0</div>
+
+            <section class="score-panel">
+                <ul class="stars" id="starScore">
+                    <li id="stars"><i class="fa fa-star"></i></li>
+                    <li id="stars"><i class="fa fa-star"></i></li>
+                    <li id="stars"><i class="fa fa-star"></i></li>
+                </ul>
+
+                <span class="moves" id="moves">0</span> Moves
+
+                <div class="restart" onclick="restart()">
+                    <i class="fa fa-repeat"></i>
+                </div>
+            </section>
+
+            <ul class="deck" id="decks"></ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; Sophia & Jason</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
